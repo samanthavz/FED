@@ -77,11 +77,11 @@ begin van de eerste week
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/zarahomescreen.png" width="375px" alt="homepage from zara.com">
+![homepage from zara.com](https://github.com/samanthavz/FED/blob/main/images/zarahomescreen.PNG)
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/zaracatalog.png" width="375px" alt="catalog page from zara.com">
+![catalog from zara.com](https://github.com/samanthavz/FED/blob/main/images/zaracatalog.PNG)
 
 #### toelichting: 
 Ik ben wel van plan om de plaatjes te centeren, want dat ziet er wat netter uit naar mijn mening.
