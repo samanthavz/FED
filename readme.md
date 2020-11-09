@@ -73,16 +73,16 @@ begin van de eerste week
 
 **Je focus:** responsive en misschien ook de surface plane
 
-**Je opdracht:**  Ik ga voor mijn opdracht een bestaande website namaken. Ik kies voor [de website van de Zara](https://www.zara.com/nl/), omdat het bij mijn persoonlijke stijl past qua vormgeving.
+**Je opdracht:**  Ik ga voor mijn opdracht een bestaande website namaken. Ik kies voor [de website van sennep.com](https://www.sennep.com/), omdat dit een goede uitdaging voor mij is om na te maken. 
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-![homepage from zara.com](https://github.com/samanthavz/FED/blob/main/images/zarahomescreen.PNG)
+![homepage from sennep.com](./images/sennephomescreen.PNG?raw=true)
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-![catalog from zara.com](https://github.com/samanthavz/FED/blob/main/images/zaracatalog.PNG)
+![another page from sennep.com](./images/sennep.PNG?raw=true)
 
 #### toelichting: 
-Ik ben wel van plan om de plaatjes te centeren, want dat ziet er wat netter uit naar mijn mening.
+Bij beide foto's is er nog veel meer content als je zou scrollen. 
 
