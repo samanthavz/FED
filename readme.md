@@ -59,15 +59,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -na afloop snel uitkomsten vastleggen-
 
 
+___
+___
+## **Breakdownschets (week 1)**
 
-## Breakdownschets (week 1)
+![Breakdown-sketch](./images/breakdownschets.svg)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+### toelichting:
+Dit is de breakdownschets van de homepage. Hoewel de elementen redelijk simpel en herhalend zijn, is het geen makkelijke website. Er zitten veel animaties en effecten bij die niet uit de breakdown schets te halen zijn. Daarnaast is dit geen exacte screenshot van de website. Ik heb herhalende stukjes er uit gehaald en ook was het niet mogelijk om alles correct te screenshotten door de animaties die pas inladen als je op een bepaald punt op de site bent. Ondanks dit heb ik toch een goed beeld kunnen vormen.
 
 
-
-## Intake (week 1)
-begin van de eerste week
+___
+___
+## **Intake (week 1)**
 
 **Je startniveau:** zwart
 
@@ -85,4 +89,7 @@ begin van de eerste week
 
 #### toelichting: 
 Bij beide foto's is er nog veel meer content als je zou scrollen. 
+
+___
+___
 
