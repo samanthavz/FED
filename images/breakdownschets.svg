@@ -23,6 +23,7 @@
 	.st17{font-size:11px;}
 	.st18{fill:#1D1F3F;}
 	.st19{font-size:12px;}
+	.st20{font-size:9px;}
 </style>
 <rect y="0" class="st0" width="595.28" height="841.89"/>
 <path class="st1" d="M0,841.89c123.87,0,247.75,0,371.62,0c3.25-22.06,6.04-54.08,2.51-92.36c-2.86-31.01-6.18-66.89-26.73-107.76
@@ -33712,7 +33713,6 @@ ueJe1td0AgRyCyjuufO3PYF0Aop72cgV97K+phMgkFtAcc+dv+0JpBNQ3MtGrriX9TWdAIHcAop7
 <rect x="418.55" y="349.83" class="st6" width="112.28" height="15.68"/>
 <rect x="418.55" y="612.22" class="st9" width="112.28" height="15.68"/>
 <rect x="215.84" y="612.22" class="st4" width="112.28" height="15.68"/>
-<rect x="215.36" y="101.13" class="st7" width="112.28" height="15.68"/>
 <rect x="418.55" y="98.1" class="st6" width="112.28" height="15.68"/>
 <rect x="17.37" y="44.26" class="st10" width="118.34" height="34.63"/>
 <g>
@@ -33748,7 +33748,7 @@ ueJe1td0AgRyCyjuufO3PYF0Aop72cgV97K+phMgkFtAcc+dv+0JpBNQ3MtGrriX9TWdAIHcAop7
 <text transform="matrix(0 -1 1 0 43.4112 477.1494)" class="st14 st16">Section</text>
 <rect x="37.48" y="577.84" class="st12" width="12.59" height="34.38"/>
 <text transform="matrix(0 -1 1 0 43.4112 610.209)" class="st14 st16">Section</text>
-<rect x="191.54" y="79.82" class="st10" width="162.82" height="240.09"/>
+<rect x="191.54" y="134.32" class="st10" width="162.82" height="185.58"/>
 <rect x="393.28" y="79.82" class="st10" width="162.82" height="240.09"/>
 <rect x="190.57" y="332.24" class="st10" width="162.82" height="240.09"/>
 <rect x="393.28" y="332.24" class="st10" width="162.82" height="240.09"/>
@@ -33756,8 +33756,8 @@ ueJe1td0AgRyCyjuufO3PYF0Aop72cgV97K+phMgkFtAcc+dv+0JpBNQ3MtGrriX9TWdAIHcAop7
 <rect x="396.36" y="593.48" class="st10" width="162.82" height="240.09"/>
 <rect x="195.36" y="167.18" class="st10" width="155.17" height="60.76"/>
 <rect x="195.36" y="227.94" class="st10" width="155.17" height="34.22"/>
-<rect x="182.77" y="81.26" class="st12" width="12.59" height="44.95"/>
-<text transform="matrix(0 -1 1 0 190.9294 124.689)" class="st14 st17">Header</text>
+<rect x="181.59" y="139.77" class="st12" width="12.59" height="54.83"/>
+<text transform="matrix(0 -1 1 0 189.7485 188.0522)" class="st14 st17">Section</text>
 <rect x="197.88" y="160.5" class="st12" width="12.59" height="34.38"/>
 <text transform="matrix(0 -1 1 0 206.0425 184.1895)" class="st14 st17">H1</text>
 <rect x="197.88" y="227" class="st12" width="12.59" height="34.38"/>
@@ -33854,4 +33854,19 @@ ueJe1td0AgRyCyjuufO3PYF0Aop72cgV97K+phMgkFtAcc+dv+0JpBNQ3MtGrriX9TWdAIHcAop7
 		<text transform="matrix(1 0 0 1 418.2687 67.0487)" class="st8 st14 st19">Samantha van zandwijk</text>
 	</g>
 </g>
+<rect x="190.57" y="87.28" class="st10" width="162.82" height="43.61"/>
+<rect x="181.59" y="78.25" class="st12" width="12.59" height="61.66"/>
+<text transform="matrix(0 -1 1 0 189.7485 130.041)" class="st14 st17">Header</text>
+<rect x="205.2" y="91.86" class="st10" width="40.33" height="34.46"/>
+<rect x="296.95" y="91.86" class="st10" width="40.33" height="34.46"/>
+<rect x="310.86" y="101.02" class="st10" width="20.16" height="17.23"/>
+<rect x="215.28" y="100.47" class="st10" width="20.16" height="17.23"/>
+<rect x="207.54" y="91.02" class="st12" width="12.59" height="34.38"/>
+<text transform="matrix(0 -1 1 0 214.2178 119.2573)" class="st14 st20">IMG</text>
+<rect x="302.64" y="91.89" class="st12" width="12.59" height="34.38"/>
+<text transform="matrix(0 -1 1 0 309.317 120.1323)" class="st14 st20">IMG</text>
+<rect x="289.34" y="92.44" class="st12" width="12.59" height="34.38"/>
+<text transform="matrix(0 -1 1 0 296.0166 125.5654)" class="st14 st20">Button</text>
+<rect x="197.88" y="91.89" class="st12" width="12.59" height="34.38"/>
+<text transform="matrix(0 -1 1 0 204.5581 125.0146)" class="st14 st20">Button</text>
 </svg>
