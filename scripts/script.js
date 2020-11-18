@@ -5,7 +5,7 @@
 
 // background fade
 
-var colors = ['rgb(243, 196, 68)', 'rgb(66, 36, 210)'];
+var colors = ['rgb(243, 196, 68)', 'rgb(219, 122, 0)', 'rgb(66, 36, 210)'];
 var body = document.getElementById("body");
 var a = 0;
 var height = body.scrollHeight;
@@ -21,7 +21,11 @@ window.onscroll = function () {
     }
     if (window.scrollY > 200) {
         a = 1;
-    } //finger ani
+    }
+    if (window.scrollY > 1000) {
+        a = 2;
+    }
+        //finger ani
     if (window.scrollY > 100) {
         finger.style.top = "50vh";
         finger.style.right = "-20vw";

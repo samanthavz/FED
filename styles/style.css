@@ -27,6 +27,11 @@ button {
   outline: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 header {
   position: relative;
   height: 10%;
@@ -65,7 +70,7 @@ header button img {
 
 .first-section {
   width: 100vw;
-  min-height: 150vh;
+  min-height: 130vh;
   position: relative;
   overflow: hidden;
 }
@@ -81,11 +86,39 @@ header button img {
   
 }
 
-.second-section {
+.section {
   width: 100vw;
   height: 100vh;
   position: relative;
 } 
+
+.section div {
+  position: absolute;
+  top: 0h;
+  left: 8vw;
+  max-width: 85vw;
+  
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  font-weight: 550;
+  line-height: 1.3;
+  color: white;
+  margin: 0.5em 0;
+}
+
+.section p {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  padding-top: 5em;
+}
+
+.section a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
 
 .finger {
   position: absolute;
