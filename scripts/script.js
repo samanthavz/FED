@@ -5,7 +5,7 @@
 
 // background fade
 
-var colors = ['rgb(243, 196, 68)', 'rgb(219, 122, 0)', 'rgb(66, 36, 210)', 'rgb(54, 72, 214)'];
+var colors = ['rgb(243, 196, 68)', 'rgb(219, 122, 0)', 'rgb(66, 36, 210)', 'rgb(54, 72, 214)', 'rgb(255,255,255)'];
 var body = document.getElementById("body");
 var a = 0;
 var height = body.scrollHeight;
@@ -25,8 +25,12 @@ window.onscroll = function () {
     if (window.scrollY > 1200) {
         a = 2;
     }
-    if (window.scrollY > 2500) {
+    if (window.scrollY > 2100) {
         a = 3;
+    }
+
+    if (window.scrollY > 3050) {
+        a = 4;
     }
         //finger ani
     if (window.scrollY > 100) {
@@ -67,23 +71,20 @@ window.onresize = function () {
 
 //move image when scroll
 
-// var rotatediv = document.getElementById("rotatediv");
-// var rotateimg = document.getElementById("rotateimg");
-// var rotatediv2 = document.getElementById("rotatediv2");
-// var rotateimg2 = document.getElementById("rotateimg2");
-
-var rotate = document.getElementsByClassName('section');
+var rotate = document.querySelectorAll('section > div');
 
 window.addEventListener("scroll", function () {
     "use strict";
     if (window.scrollY > 300) {
-        rotate.style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
-        // rotatediv.style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
-        // rotateimg.style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
+        rotate[0].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
+        rotate[1].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
     }
     if (window.scrollY > 1200) {
-        rotate.style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
-        // rotatediv2.style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
-        // rotateimg2.style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
+        rotate[2].style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
+        rotate[3].style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
+    }
+    if (window.scrollY > 2500) {
+        rotate[4].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
+        rotate[5].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
     }
 });

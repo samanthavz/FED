@@ -65,26 +65,7 @@ header button img {
   width: 10vw;
 }
 
-
-/* classes */
-
-.first-section {
-  width: 100vw;
-  min-height: 110vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.first-section h1 {
-  position: absolute;
-  top: 30vh;
-  left: 8vw;
-  max-width: 85vw;
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.3;
-  
-}
+/* alle sections */
 
 .section {
   width: 100vw;
@@ -112,20 +93,8 @@ header button img {
   width: 50vw;
 }
 
-.sec2img {
-  width: 80vw;
-}
-
 .imagediv img {
   width: 100%;
-}
-
-.section h2 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: white;
-  margin: 0.5em 0;
 }
 
 .section p {
@@ -151,6 +120,87 @@ header button img {
   transition: 1s;
   
 }
+
+/* section 1 */
+
+.first-section {
+  width: 100vw;
+  min-height: 110vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.first-section h1 {
+  position: absolute;
+  top: 30vh;
+  left: 8vw;
+  max-width: 85vw;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  
+}
+
+/* section 2 */
+
+.sec2img {
+  width: 80vw;
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: white;
+  margin: 0.5em 0;
+}
+
+/*section 5 */
+
+.section5 {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.section5 article {
+  display: flex;
+  max-width: 320px;
+  height: 800px;
+  flex-direction: column;
+}
+
+.section5 article img {
+  width: 100%;
+  margin: 2em 0 1em 0;
+}
+
+.section5 article p {
+  margin: 2em 0;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+}
+
+.section5 article h2 {
+  font-size: 1.5em;
+  letter-spacing: 0.04em;
+}
+.blacklink {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+
+.textlink {
+  color: black;
+  text-decoration: underline;
+}
+
+
 
 /* media queries */
 /* tablet */
