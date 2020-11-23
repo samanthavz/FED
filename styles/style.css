@@ -74,7 +74,7 @@ header button img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: hidden;
+  overflow-x: hidden;
 } 
 
 .imgdiv {
@@ -91,6 +91,7 @@ header button img {
 
 .imagediv {
   width: 50vw;
+  overflow-x: hidden;
 }
 
 .imagediv img {
@@ -145,6 +146,7 @@ header button img {
 
 .sec2img {
   width: 80vw;
+  overflow-x: hidden;
 }
 
 .section h2 {
@@ -200,7 +202,11 @@ header button img {
   text-decoration: underline;
 }
 
+/* section 6: partners */
 
+.partner {
+  padding: 0 2.5rem;
+}
 
 /* media queries */
 /* tablet */
