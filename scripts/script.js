@@ -15,6 +15,7 @@ var finger = document.getElementById("finger");
 window.onscroll = function () {
     "use strict";
     console.log(window.scrollY); // Value of scroll Y in px
+    var ffinger = document.getElementById("ffinger");
 
     if (window.scrollY > 0) {
         a = 0;
@@ -28,9 +29,15 @@ window.onscroll = function () {
     if (window.scrollY > 2100) {
         a = 3;
     }
-
-    if (window.scrollY > 3050) {
+    if (window.scrollY > 2750) {
         a = 4;
+    }
+    if ((window.scrollY > 6529 && screen.height < 580) || window.scrollY > 7180) {
+        a = 0;
+        ffinger.style.bottom = "-30vh";
+    }
+    if ((window.scrollY < 6729 && screen.height < 580) || window.scrollY < 7177) {
+        ffinger.style.bottom = "-60vh";
     }
         //finger ani
     if (window.scrollY > 100) {
