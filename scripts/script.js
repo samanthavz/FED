@@ -70,9 +70,9 @@ var logo = document.getElementById("logo");
 window.onresize = function () {
     "use strict";
     if (window.innerWidth > 1100) {
-        logo.src = "./images/logo2.png";
+        logo.src = "./images/logo2.PNG";
     } else {
-        logo.src = "./images/SennepLogoMobile.png";
+        logo.src = "./images/SennepLogoMobile.PNG";
     }
 };
 
