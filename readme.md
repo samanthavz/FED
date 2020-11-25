@@ -59,7 +59,7 @@ Ik heb samen met mijn groepje een agenda opgesteld voor een feedbackgesprek. In 
 | ---                                                                                | ---                | ---          | ---              | ---           |
 | Hoe zorg ik er voor dat de achtergrondkleur verandert als een element in beeld is? | Ik heb een vraag over mijn header |Hoe krijg ik ruimte tussen mijn scrollbar?  | Hoe maak je een achtergrond gradient met stipjes?              | Ik heb een vraag over mijn header|
 | In hoeverre is dit de surface plane/wat moet er bij?                               | ---                |Hoe krijg ik ruimte onder mijn button?      | Hoe krijg ik mijn header fixed?                 | ---            |
-| ---                                                                                | ---                | ---          | Hoe krijg ik sommige dingen responsive  | ---           |
+| use strict in js                                                                               | ---                | ---          | Hoe krijg ik sommige dingen responsive  | ---           |
 
 
 ### Verslag van meeting

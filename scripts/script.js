@@ -95,3 +95,26 @@ window.addEventListener("scroll", function () {
         rotate[5].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
     }
 });
+
+//hamburger menu
+
+var button = document.getElementById("hamburgerbutton");
+var main = document.querySelector("main");
+var footer = document.querySelector("footer");
+var nav = document.getElementById("nav");
+var display = getComputedStyle(nav).display;
+var hamburger = document.getElementById("hamburgerimg");
+
+button.addEventListener('click', function () {
+    main.classList.toggle("hiddenmain");
+    footer.classList.toggle("hiddenmain");
+    if (display === "none") {
+        nav.style.display = "block";
+        display = "block";
+        hamburger.src = "./images/kruis.PNG";
+    } else if (display === "block") {
+        nav.style.display = "none";
+        display = "none";
+        hamburger.src = "./images/sennephamburger.PNG";
+    }
+});

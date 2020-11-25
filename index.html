@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 	
 <head>
 	<!-- gebruikte bronnen: https://stackoverflow.com/questions/1404078/jslints-issue-with-window-as-a-global-variable
@@ -24,14 +24,24 @@
 <body id="body" class="body1">
 	<!--Start of (soon to be) fixed header-->
 	<header>
-		<button href="#">
+		<button>
 			<img id="logo" src="./images/SennepLogoMobile.PNG" alt="sennep logo">
 		</button>
-		<button href="#">
-			<img src="./images/sennephamburger.PNG" alt="hamburger menu">
+		<button id="hamburgerbutton">
+			<img id="hamburgerimg" src="./images/sennephamburger.PNG" alt="hamburger menu">
 		</button>	
 	</header>
 	<!-- start of content-->
+	<!-- hamburger (staat niet in de main want die is hidden zodra je de nav opent-->
+	<nav id="nav">
+		<a>About</a>
+		<a>Work</a>
+		<a>Approach</a>
+		<div>
+			<p>CONTACT</p>
+			<p>NEWSLETTER</p>
+		</div>
+	</nav>
 	<main>
 		<!-- section 1-->
 		<section class="first-section">
@@ -40,37 +50,37 @@
 		</section>
 
 		<!-- section 2-->
-		<section id="section1" class="section section1">
-			<div class="textdiv" id="rotatediv">
+		<section class="section section1">
+			<div class="textdiv">
 				<p>GOOGLE | HO JENG AR</p>
 				<h2>Sharing smiles in Hong Kong</h2>
 				<a href="goback.html">VIEW CASE STUDY</a>
 			</div>
-			<div class="imagediv" id="rotateimg">
+			<div class="imagediv">
 				<img class="section1img" src="./images/section1img.svg" alt="sennep's work">
 			</div>
 		</section>
 
 		<!-- section 3-->
-		<section id="section1" class="section">
-			<div class="textdiv" id="rotatediv2">
+		<section class="section">
+			<div class="textdiv">
 				<p>LUMI</p>
 				<h2>A smarter way to learn and play music</h2>
 				<a href="goback.html">VIEW CASE STUDY</a>
 			</div>
-			<div class="imagediv sec2img" id="rotateimg2">
+			<div class="imagediv sec2img">
 				<img class="section1img" src="./images/Section2.PNG" alt="sennep's work">
 			</div>
 		</section>
 
 		<!-- section 4-->
-		<section id="section1" class="section">
-			<div class="textdiv" id="rotatediv2">
+		<section class="section">
+			<div class="textdiv">
 				<p>URBAN MIND</p>
 				<h2>Healthy cities, healthier minds</h2>
 				<a href="goback.html">VIEW CASE STUDY</a>
 			</div>
-			<div class="imagediv sec2img" id="rotateimg2">
+			<div class="imagediv sec2img">
 				<img class="section1img" src="./images/Section31.PNG" alt="sennep's work">
 			</div>
 		</section>
