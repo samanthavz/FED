@@ -29,27 +29,38 @@
 
 -same as voortgang 1-
 
-
+___
+___
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Over het algemeen is het design van mijn website redelijk simpel. Ik heb mezelf dan ook uitgedaagd door responsiveness en de surface plane toe te passen aan het einde. Voor deze week ben ik vooral bezig geweest met JavaScript. Hier kwam ik zeker wat problemen tegen, maar ik ben er redelijk goed uitgekomen. Aangezien ik nog maar één blok les heb gehad in JavaScript, moest ik echt opzoek gaan naar oplossingen op het internet. Dit houdt niet in dat in dingen heb gekopieërd, maar ik was vooral op zoek naar: wat moet ik hier voor gebruiken?
+Naast het maken van mijn website werd er redelijk veel huiswerk meegegeven. Hier had ik weinig moeite mee, maar het was wel lastig om alles af te krijgen m.b.t. de tijd die ik er voor had. Ik heb er wel voor gezorgd dat ik het huiswerk begreep door de dingen door te nemen die ik niet af heb gekregen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+![Breakdown-sketch](./images/markdown1.png)
+![Breakdown-sketch](./images/markdown2.png)
+![Breakdown-sketch](./images/markdown3.png)
+![Breakdown-sketch](./images/markdown4.png)
+
+Ik heb de homepage inmiddels helemaal af. Hierboven zijn een paar screenshots te zien van mijn website, nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken focussen op het maken van het details scherm. Als er dan nog tijd is ga ik beginnen met responsive webdesign. 
+
+___
+___
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Ik heb samen met mijn groepje een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen over onze code en kunnen we problemen aankaarten waar we tegen aan lopen. In deze agenda hebben wij onze vragen beknopt opgeschreven, zodat we kunnen inschatten dat iedereen genoeg tijd heeft en aan de beurt kan komen. Ook is dit voor de beoordelaar handig om te weten waar wij het over willen hebben.
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Samantha(ik)                                                                       | Noa                | Nicole       | Maylinn          | Stein         |
+| ---                                                                                | ---                | ---          | ---              | ---           |
+| Hoe zorg ik er voor dat de achtergrondkleur verandert als een element in beeld is? | Ik heb een vraag over mijn header |Hoe krijg ik ruimte tussen mijn scrollbar?  | Hoe maak je een achtergrond gradient met stipjes?              | Ik heb een vraag over mijn header|
+| In hoeverre is dit de surface plane/wat moet er bij?                               | ---                |Hoe krijg ik ruimte onder mijn button?      | Hoe krijg ik mijn header fixed?                 | ---            |
+| ---                                                                                | ---                | ---          | Hoe krijg ik sommige dingen responsive  | ---           |
+
 
 ### Verslag van meeting
 

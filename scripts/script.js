@@ -36,7 +36,7 @@ window.onscroll = function () {
         a = 0;
         ffinger.style.bottom = "-30vh";
     }
-    if ((window.scrollY < 6729 && screen.height < 580) || window.scrollY < 7177) {
+    if ((window.scrollY < 6629 && screen.height < 580) || window.scrollY < 7177) {
         ffinger.style.bottom = "-60vh";
     }
         //finger ani
