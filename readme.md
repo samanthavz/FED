@@ -41,10 +41,10 @@ Naast het maken van mijn website werd er redelijk veel huiswerk meegegeven. Hier
 
 **Screenshot(s):**
 
-![Breakdown-sketch](./images/markdown1.png)
-![Breakdown-sketch](./images/markdown2.png)
-![Breakdown-sketch](./images/markdown3.png)
-![Breakdown-sketch](./images/markdown4.png)
+![Breakdown-sketch](./images/markdown1.png?raw=true)
+![Breakdown-sketch](./images/markdown2.png?raw=true)
+![Breakdown-sketch](./images/markdown3.png?raw=true)
+![Breakdown-sketch](./images/markdown4.png?raw=true)
 
 Ik heb de homepage inmiddels helemaal af. Hierboven zijn een paar screenshots te zien van mijn website, nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken focussen op het maken van het details scherm. Als er dan nog tijd is ga ik beginnen met responsive webdesign. 
 
