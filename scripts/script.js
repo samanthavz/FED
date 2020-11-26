@@ -102,10 +102,11 @@ var button = document.getElementById("hamburgerbutton");
 var main = document.querySelector("main");
 var footer = document.querySelector("footer");
 var nav = document.getElementById("nav");
-var display = getComputedStyle(nav).display;
+var display = window.getComputedStyle(nav).display;
 var hamburger = document.getElementById("hamburgerimg");
 
 button.addEventListener('click', function () {
+    "use strict";
     main.classList.toggle("hiddenmain");
     footer.classList.toggle("hiddenmain");
     if (display === "none") {
