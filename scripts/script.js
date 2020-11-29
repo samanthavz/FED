@@ -1,6 +1,3 @@
-/*jslint browser */
-/*global window */
-/*jslint devel: true */
 // JavaScript Document
 
 // background fade
@@ -13,7 +10,6 @@ var finger = document.getElementById("finger");
 
 
 window.onscroll = function () {
-    "use strict";
     console.log(window.scrollY); // Value of scroll Y in px
     var ffinger = document.getElementById("ffinger");
 
@@ -58,7 +54,6 @@ window.onscroll = function () {
 // more finger ani
 
 window.onload = function () {
-    "use strict";
     finger.style.top = "38vh";
     finger.style.right = "-25vw";
     finger.style.transform = "rotate(-30deg)";
@@ -68,7 +63,6 @@ window.onload = function () {
 
 var logo = document.getElementById("logo");
 window.onresize = function () {
-    "use strict";
     if (window.innerWidth > 1100) {
         logo.src = "./images/logo2.PNG";
     } else {
@@ -81,7 +75,6 @@ window.onresize = function () {
 var rotate = document.querySelectorAll('section > div');
 
 window.addEventListener("scroll", function () {
-    "use strict";
     if (window.scrollY > 300) {
         rotate[0].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
         rotate[1].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
@@ -106,7 +99,6 @@ var display = window.getComputedStyle(nav).display;
 var hamburger = document.getElementById("hamburgerimg");
 
 button.addEventListener('click', function () {
-    "use strict";
     main.classList.toggle("hiddenmain");
     footer.classList.toggle("hiddenmain");
     if (display === "none") {
