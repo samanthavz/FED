@@ -64,7 +64,7 @@ Ik heb samen met mijn groepje een agenda opgesteld voor een feedbackgesprek. In 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Na afloop van het gesprek heb jslint verwijderd van mijn code editor, want het zorgde voor veel onnodige errors. Ik heb twee handige linkjes gekregen waar ik me in ga verdiepen wanneer in aankomende weken tijd heb. Met behulp van [dit filmpje](https://www.youtube.com/watch?v=SydnKbGc7W8&t=494s) kan ik Airbnb style guide gebruiken i.p.v. jslint, zodat ik geen rare errors meer krijg. Daarnaast kan ik mij verdiepen in [deze website](https://www.javascripttutorial.net/dom/css/check-if-an-element-is-visible-in-the-viewport/) om mijn achtergrond kleur beter te laten faden op verschillende schermgroottes. Ook was het leerzaam om andermans werk te zien en interessant om te weten waar zij precies vastlopen. 
 
 
 ___
