@@ -1,5 +1,13 @@
 // JavaScript Document
 
+//sennep logo goes to homepage 
+var logo = document.getElementById("logo");
+
+logo.addEventListener("click", function(){
+    location.href = "./index.html";
+    console.log("click");
+});
+
 // background fade
 
 var colors = ['rgb(243, 196, 68)', 'rgb(219, 122, 0)', 'rgb(66, 36, 210)', 'rgb(54, 72, 214)', 'rgb(255,255,255)'];
@@ -7,7 +15,6 @@ var body = document.getElementById("body");
 var a = 0;
 var height = body.scrollHeight;
 var finger = document.getElementById("finger");
-
 
 window.onscroll = function () {
     console.log(window.scrollY); // Value of scroll Y in px
@@ -61,7 +68,7 @@ window.onload = function () {
 
 // icon change when on desktop
 
-var logo = document.getElementById("logo");
+
 window.onresize = function () {
     if (window.innerWidth > 1100) {
         logo.src = "./images/logo2.PNG";
@@ -111,3 +118,9 @@ button.addEventListener('click', function () {
         hamburger.src = "./images/sennephamburger.PNG";
     }
 });
+
+
+
+
+
+
