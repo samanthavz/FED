@@ -48,7 +48,7 @@ Ik heb opnieuw met mijn groepje een agenda opgesteld voor een feedbackgesprek. I
 
 | Samantha(ik)                                                                       | Noa                | Nicole       | Maylinn          | Stein         |
 | ---                                                                                | ---                | ---          | ---              | ---           |
-| Hoe zorg ik er voor dat mijn animatie bij 10 graden begint? | Hoe maak ik een hamburger menu? |Wat is frontend?  | Ik heb een vraag over de scaling van de tekst en de video              | Geen vraag|
+| Hoe zorg ik er voor dat mijn animatie bij 10 graden begint? | Hoe maak ik een hamburger menu? |Vraag over hamburger menu  | Ik heb een vraag over de scaling van de tekst en de video              | Geen vraag|
 | ---                                                                                | Vraag over pijltjes bij verschillende sections               | ---          | ---              | ---           |
 
             
