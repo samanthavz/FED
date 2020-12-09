@@ -27,7 +27,37 @@
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik heb nu bijna alles af, op een slider na. De volgende weken ga ik mij richting op het responsive maken van mijn website. Dit ga ik doen aan de hand van extra javascript en media queries. Ook zijn er wat dingen die ik nog moet aanpassen in javascript. Ik wil onder andere wat extra comments toevoegen en de code beter organiseren. Daarnaast kan ik nog wat aandacht besteden aan wat kleine details, zoals de afbeeldingen die niet de gewenste resolutie hebben. Er zijn nog enkele aanpassingen nodig. Deze aanpassingen zijn niet per direct nodig, maar zijn meer een optie voor finetuning. 
+
+**Screenshot(s):**
+
+![homepage img](./images/markdown5.PNG?raw=true)
+![homepage img](./images/markdown6.PNG?raw=true)
+![homepage img](./images/markdown7.PNG?raw=true)
+
+Hierboven zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken mijn design helemaal responsive maken.
+
+___
+___
+
+### Agenda voor meeting
+
+Ik heb opnieuw met mijn groepje een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen over onze code en kunnen we problemen aankaarten waar we tegen aan lopen. 
+
+| Samantha(ik)                                                                       | Noa                | Nicole       | Maylinn          | Stein         |
+| ---                                                                                | ---                | ---          | ---              | ---           |
+| Hoe zorg ik er voor dat mijn animatie bij 10 graden begint? | Hoe maak ik een hamburger menu? |Wat is frontend?  | Ik heb een vraag over de scaling van de tekst en de video              | Geen vraag|
+| ---                                                                                | Vraag over pijltjes bij verschillende sections               | ---          | ---              | ---           |
+
+            
+
+
+### Verslag van meeting
+
+to be continued.......?!????????!1??>>>???1 
+
 
 ___
 ___
@@ -53,7 +83,7 @@ ___
 
 ### Agenda voor meeting
 
-Ik heb samen met mijn groepje een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen over onze code en kunnen we problemen aankaarten waar we tegen aan lopen. In deze agenda hebben wij onze vragen beknopt opgeschreven, zodat we kunnen inschatten dat iedereen genoeg tijd heeft en aan de beurt kan komen. Ook is dit voor de beoordelaar handig om te weten waar wij het over willen hebben.
+Ik heb met mijn groepje een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen over onze code en kunnen we problemen aankaarten waar we tegen aan lopen. In deze agenda hebben wij onze vragen beknopt opgeschreven, zodat we kunnen inschatten dat iedereen genoeg tijd heeft en aan de beurt kan komen. Ook is dit voor de beoordelaar handig om te weten waar wij het over willen hebben.
 
 | Samantha(ik)                                                                       | Noa                | Nicole       | Maylinn          | Stein         |
 | ---                                                                                | ---                | ---          | ---              | ---           |
