@@ -16,6 +16,11 @@ var a = 0;
 var height = body.scrollHeight;
 var finger = document.getElementById("finger");
 
+var pathname = window.location.pathname;
+
+// deze functie start alleen op index.html
+if (pathname.includes("index.html")) {
+
 window.onscroll = function () {
     console.log(window.scrollY); // Value of scroll Y in px
     var ffinger = document.getElementById("ffinger");
@@ -42,7 +47,7 @@ window.onscroll = function () {
     if ((window.scrollY < 6629 && screen.height < 580) || window.scrollY < 7177) {
         ffinger.style.bottom = "-60vh";
     }
-        //finger ani
+    //finger ani
     if (window.scrollY > 100) {
         finger.style.top = "50vh";
         finger.style.right = "-20vw";
@@ -56,6 +61,44 @@ window.onscroll = function () {
     }
 
     body.style.backgroundColor = colors[a];
+    };
+}; 
+
+// deze functie start alleen op about.html
+if (pathname.includes("about.html")) {
+
+    window.onscroll = function () {
+        console.log(window.scrollY); // Value of scroll Y in px
+        var ffinger = document.getElementById("ffinger");
+    
+        if (window.scrollY > 0) {
+            a = 0;
+        }
+        if (window.scrollY > 3200) {
+            a = 4;
+        }
+        if ((window.scrollY > 6529 && screen.height < 580) || window.scrollY > 7180) {
+            a = 0;
+            ffinger.style.bottom = "-30vh";
+        }
+        if ((window.scrollY < 6629 && screen.height < 580) || window.scrollY < 7177) {
+            ffinger.style.bottom = "-60vh";
+        }
+        //finger ani
+        if (window.scrollY > 100) {
+            finger.style.top = "50vh";
+            finger.style.right = "-20vw";
+            finger.style.transform = "rotate(0deg)";
+            finger.style.transition = "0.4";
+        }
+        if (window.scrollY < 100) {
+            finger.style.top = "38vh";
+            finger.style.right = "-25vw";
+            finger.style.transform = "rotate(-30deg)";
+        }
+    
+        body.style.backgroundColor = colors[a];
+    };
 };
 
 // more finger ani
@@ -65,6 +108,7 @@ window.onload = function () {
     finger.style.right = "-25vw";
     finger.style.transform = "rotate(-30deg)";
 };
+
 
 // icon change when on desktop
 
@@ -80,21 +124,24 @@ window.onresize = function () {
 //move image when scroll
 
 var rotate = document.querySelectorAll('section > div');
+// deze functie start alleen op index.html
+if (pathname.includes("index.html")) {
 
-window.addEventListener("scroll", function () {
-    if (window.scrollY > 300) {
-        rotate[0].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
-        rotate[1].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
-    }
-    if (window.scrollY > 1200) {
-        rotate[2].style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
-        rotate[3].style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
-    }
-    if (window.scrollY > 2500) {
-        rotate[4].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
-        rotate[5].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
-    }
-});
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            rotate[0].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
+            rotate[1].style.transform = "rotate(-" + (window.pageYOffset - 700) / 70 + "deg)";
+        }
+        if (window.scrollY > 1200) {
+            rotate[2].style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
+            rotate[3].style.transform = "rotate(-" + (window.pageYOffset - 1500) / 70 + "deg)";
+        }
+        if (window.scrollY > 2500) {
+            rotate[4].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
+            rotate[5].style.transform = "rotate(-" + (window.pageYOffset - 2500) / 70 + "deg)";
+        }
+    });
+};
 
 //hamburger menu
 
@@ -118,6 +165,7 @@ button.addEventListener('click', function () {
         hamburger.src = "./images/sennephamburger.PNG";
     }
 });
+
 
 
 

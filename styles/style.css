@@ -289,6 +289,70 @@ body nav div p:first-of-type {
   padding-bottom: 1em;
 }
 
+/* de text sections van about.html */
+
+.aboutsection {
+  padding: 15vh 6vw;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.aboutsection img {
+  width: 75vw;
+}
+
+.aboutsection div h3 {
+  color: #262626;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 2em 0 1em 0;
+}
+
+.aboutsection div p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.7em;
+  font-size: 0.98em;
+}
+
+.aboutsection div p:nth-of-type(2) {
+  padding-top: 1em;
+}
+
+.aboutsection div a {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+  color: black;
+  display: block;
+  padding-top: 3em;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+/* voor de video */
+
+.videosection {
+  text-align: center;
+  height: 50vh;
+}
+.videosection video {
+  width: 85vw;
+}
+
+/*partner stukje van about */
+
+.partnerabout h2 {
+  margin-bottom: 3rem;
+  letter-spacing: 0.02em;
+  font-size: 1.5em;
+  padding: 0 7vw;
+}
 
 /*foooooter */
 
