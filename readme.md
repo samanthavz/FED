@@ -23,6 +23,21 @@
 
 -same as voortgang 1-
 
+___
+___
+
+## toegankelijkheid check (week 6)
+
+Deze week ben ik gaan kijken naar de toegankelijkheid (accessibility) van me website. Ik ben gaan checken in hoeverre mijn website bruikbaar is voor mensen met een beperking m.b.t. het internet. Ik heb een screenreader ingeschakeld (narrator op windows) en ben door mijn website heen gegaan. Alles was toegankelijk, maar er zijn wat details die ik nog kan veranderen;
+
+- Een image van een button heeft nog geen naam.
+- de partner images heten allemaal "partner image", maar het is beter om de partnernaam zelf te benoemen. Nu weet je niet om welke partners het gaat.
+- Sommige images mogen een specifiekere naam krijgen. 
+
+Verder heb ik (nog?) geen form op mijn website, dus dat heb ik niet kunnen checken. Zodra ik nieuwe html toevoeg, check ik mijn website met de screenreader opnieuw. 
+Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken.
+___
+___
 
 
 ## Voortgang 2 (week 5)
@@ -56,7 +71,11 @@ Ik heb opnieuw met mijn groepje een agenda opgesteld voor een feedbackgesprek. I
 
 ### Verslag van meeting
 
-to be continued.......?!????????!1??>>>???1 
+Het gesprek verliep goed en ik heb als antwoord op mijn vraag twee websites toegestuurd gekregen;
+- [Het berekenen van een animatie](https://cubic-bezier.com/#.19,.66,.83,.67)
+- [Een transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
+
+Ik denk dat de eerste niet het antwoord is dat ik zoek, maar de andere ga ik me volgende week in verdiepen op de hoop dat ik daar het antwoord op mijn vraag zal vinden. Hoewel ik niet veel vragen had deze week, vind ik het altijd interessant om te zien hoe anderen het doen. Misschien doe je nog wat inspiratie en handige tips op. Ik heb deze week in ieder geval genoeg te doen voor dit vak en mijn website gaat de goede kant op :)
 
 
 ___
