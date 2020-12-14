@@ -35,7 +35,9 @@ Deze week ben ik gaan kijken naar de toegankelijkheid (accessibility) van me web
 - Sommige images mogen een specifiekere naam krijgen. 
 
 Verder heb ik (nog?) geen form op mijn website, dus dat heb ik niet kunnen checken. Zodra ik nieuwe html toevoeg, check ik mijn website met de screenreader opnieuw. 
-Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken.
+Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken. Ook heb ik een [filmpje](https://www.youtube.com/watch?v=3f31oufqFSM&feature=youtu.be) gekeken met handige informatie. Dingen zoals contrast horen echt bij het design van de website, wat uit mijn handig ligt. Ondanks dat is het contrast op de website goed; lichte tekst en illustraties op donkere achtergronden en donkere tekst en illustraties op lichtere achtergronden.
+
+Ik let er ook op dat ik d.m.v. media queries de tekst goed scale op verschillende schermgroottes, zodat alles goed leesbaar blijft.
 ___
 ___
 
