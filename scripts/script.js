@@ -199,6 +199,7 @@ button.addEventListener('click', function () {
 // -------------------
 //expand meet our team
 // -------------------
+if (pathname.includes("about.html")) {
 
 let check = false;
 let klikgebied1 = document.getElementById("plus1");
@@ -266,7 +267,7 @@ klikgebied3.addEventListener("click", function() {
         hiddenp3.style.visibility = "hidden"
     }
 })
-
+};
 //Ik heb maar 3 van de 6 uitgewerkt, omdat ik het principe wel snap en ik niet 
 //6x dezelfde code wil copy pasten. Het is me nog niet gelukt om hier 1 functie voor de schrijven.
 
