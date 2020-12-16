@@ -151,7 +151,7 @@ window.onresize = function () {
 
 var rotate = document.querySelectorAll('section > div');
 // deze functie start alleen op index.html
-if (pathname.includes("index.html")) {
+if (pathname.includes("index.html") || pathname === '/') {
 
     window.addEventListener("scroll", function () {
         if (window.scrollY > 300) {
