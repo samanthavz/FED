@@ -1,6 +1,24 @@
 /* CSS Document */
+/* code written by Samantha van Zandwijk */
 
+
+/* Table of Contents 
+
+1. Algemene stuff/selectoren
+2. specifiekere selectoren + stukje voor nav
+3. css van index.html
+4. css voor about.html
+5. footer
+6. css for under construction page
+7. hamburger menu
+8. media queries
+*/
+
+
+/*-----------------------------------------*/
 /*wat algemene stuff wat overal voor geldt */
+/*-----------------------------------------*/
+
 *, *::after, *::before {
   box-sizing:border-box; 
   margin: 0;
@@ -11,6 +29,7 @@
   max-height: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -48,10 +67,18 @@ main {
   flex-direction: column;
 }
 
-h2, h1, p {
+h2, h1, h3, p {
   color: #262626;
 }
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+/*--------------------*/
 /*iets meer specifiek */
+/*--------------------*/
+
 header button {
   position: absolute;
 }
@@ -71,6 +98,9 @@ header button:last-of-type {
 header button img {
   width: 10vw;
 }
+
+
+/* css voor hidden nav */
 
 body nav {
   width: 100vw;
@@ -107,7 +137,9 @@ body nav div p:first-of-type {
   padding-right: 4em;
 }
 
+/*-------------------------*/
 /* alle sections index.html*/
+/*-------------------------*/
 
 .section {
   width: 100vw;
@@ -266,7 +298,10 @@ body nav div p:first-of-type {
   width: 38vw;
 }
 
+
+/*------------------------*/
 /* hier begint about.html */
+/*------------------------*/
 
 .aboutmain section:nth-of-type(1) {
   height: 90vh;
@@ -347,14 +382,78 @@ body nav div p:first-of-type {
 
 /*partner stukje van about */
 
-.partnerabout h2 {
-  margin-bottom: 3rem;
-  letter-spacing: 0.02em;
-  font-size: 1.5em;
-  padding: 0 7vw;
+.partnerh2 {
+  font-size: 1.5em!important;
 }
 
+/* meet our team section */
+
+.team {
+  height: 90vh; 
+  padding: 0 0 0 7vw!important;
+}
+
+.team h2 {
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slider div {
+  display: flex;
+  flex-direction: column;
+  width: 17em;
+  padding-right: 2em;
+}
+
+.slider span{
+  width: 15em;
+  height: 15em;
+}
+
+.slider h3 {
+  font-size: 1.6em;
+  padding: 1em 0 0.2em 0;
+}
+
+.slider button {
+  padding: 1em 0;
+  text-align: left;
+}
+.slider p {
+  line-height: 1.6em;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.plus {
+  width: 2em;
+}
+
+.person {
+  width: 100%;
+  height: 100%;
+  transition: ease-in-out 0.2s;
+}
+
+::-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
+}
+
+
+/*----------*/
 /*foooooter */
+/*----------*/
 
 footer {
   position: relative;
@@ -387,7 +486,45 @@ footer a {
   letter-spacing: 0.07em;
 }
 
+/*--------------------------------*/
+/*css for under construction page */
+/*--------------------------------*/
+
+.conbody {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.conbody div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conbody div a {
+  background-color: black;
+  margin: 4em;
+  padding: 1em;
+}
+
+/*--------------------*/
+/* hamburger menu css */
+/*--------------------*/
+
+.hiddenmain {
+  display:none;
+  overflow: hidden;
+}
+
+
+/*---------------*/
 /* media queries */
+/*---------------*/
+
 /* tablet */
 @media only screen and (min-width: 500px) and (max-width: 1100px) {
   header button img {
@@ -419,32 +556,3 @@ footer a {
   }
 }
 
-/*css for under construction page */
-
-.conbody {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
-.conbody div {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.conbody div a {
-  background-color: black;
-  margin: 4em;
-  padding: 1em;
-}
-
-/* hamburger menu css */
-
-.hiddenmain {
-  display:none;
-  overflow: hidden;
-}
