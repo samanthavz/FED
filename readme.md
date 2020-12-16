@@ -1,9 +1,12 @@
 # Procesverslag
 **Auteur:** Samantha van Zandwijk
 
+## opmerkingen
+
+Wanneer je de link net laadt is de pathname zonder index.html, dit zorgt ervoor dat de code niet gelijk werkt door een if statement die de url checkt. Als je op het logo van sennep klikt werkt het wel.
 
 ## Bronnenlijst
-1. -bron 1-
+1. [sennep.com](https://www.sennep.com/)
 2. -bron 2-
 3. -...-
 
@@ -21,7 +24,36 @@
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Hieronder zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt van [van sennep.com](https://www.sennep.com/). Het lijkt niet veel, maar ik ben hier erg lang bezig mee geweest. Ik wilde de js code in één functie zetten, maar na veel zoeken en rondvragen is het me nog niet gelukt. Ik heb er voor gekozen om dit achterwege te laten, omdat het niet mijn prioriteit is op dit moment. Waar ik me vooral mee bezig wil houden is responsive websdesign. De website is nu helemaal af en werkt op verschillende mobile sizes. In de vakantie ga ik alles responsive maken en wat extra animaties toevoegen.
+
+Ook heb ik sinds het vorige gesprek mijn toegankelijkheid gechecked en wat dingen aangepast zoals beschreven bij 'toegankelijkheid check (week 6)'. Verder heb ik wat extra comments toegevoegd en mijn code wat netter gemaakt. Daarnaast zaten er nog een paar foutjes in de website die ik heb opgelost. 
+
+**Screenshot(s):**
+
+![voortgang img](./images/markdown8.PNG?raw=true)
+![voortgang img](./images/markdown9.PNG?raw=true)
+
+
+___
+___
+
+### Agenda voor meeting
+
+Ik heb opnieuw met mijn groepje een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen over onze code en kunnen we problemen aankaarten waar we tegen aan lopen. 
+
+| Samantha(ik)                                        | Noa                                                     | Nicole                                | Maylinn          | Stein         |
+| ---                                                 | ---                                                     | ---                                   | ---              | ---           |
+| Hoe kan je slomer scrollen?                         | Hoe krijg ik mijn menu over de rest van de content?     | Mag ik ook andere iconen gebruiken?   | geen vraag       | Geen vraag    |
+| scrollbar weghalen en laten werken op desktop       | ---                                                     | ---                                   | ---              | ---           |
+| js pathname voor code inladen werkt niet online     | ---                                                     | ---                                   | ---              | ---           |
+            
+
+
+### Verslag van meeting
+
+To be continued...??!?1!?1!>>!!>?1
 
 ___
 ___
@@ -35,7 +67,7 @@ Deze week ben ik gaan kijken naar de toegankelijkheid (accessibility) van me web
 - Sommige images mogen een specifiekere naam krijgen. 
 
 Verder heb ik (nog?) geen form op mijn website, dus dat heb ik niet kunnen checken. Zodra ik nieuwe html toevoeg, check ik mijn website met de screenreader opnieuw. 
-Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken. Ook heb ik een [filmpje](https://www.youtube.com/watch?v=3f31oufqFSM&feature=youtu.be) gekeken met handige informatie. Dingen zoals contrast horen echt bij het design van de website, wat uit mijn handig ligt. Ondanks dat is het contrast op de website goed; lichte tekst en illustraties op donkere achtergronden en donkere tekst en illustraties op lichtere achtergronden. Ik heb dit ook nagechecked via de inspect tool van chrome en het contract was goedgekeurd.
+Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken. Ook heb ik een [filmpje](https://www.youtube.com/watch?v=3f31oufqFSM&feature=youtu.be) bekeken met handige informatie. Dingen zoals contrast horen echt bij het design van de website, wat uit mijn handig ligt. Ondanks dat is het contrast op de website goed; lichte tekst en illustraties op donkere achtergronden en donkere tekst en illustraties op lichtere achtergronden. Ik heb dit ook nagechecked via de inspect tool van chrome en het contract was goedgekeurd.
 
 Ik let er ook op dat ik d.m.v. media queries de tekst goed scale op verschillende schermgroottes, zodat alles goed leesbaar blijft.
 ___
@@ -50,9 +82,9 @@ Ik heb nu bijna alles af, op een slider na. De volgende weken ga ik mij richting
 
 **Screenshot(s):**
 
-![homepage img](./images/markdown5.PNG?raw=true)
-![homepage img](./images/markdown6.PNG?raw=true)
-![homepage img](./images/markdown7.PNG?raw=true)
+![voortgang about img](./images/markdown5.PNG?raw=true)
+![voortgang about img](./images/markdown6.PNG?raw=true)
+![voortgang about img](./images/markdown7.PNG?raw=true)
 
 Hierboven zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken mijn design helemaal responsive maken.
 
@@ -92,10 +124,10 @@ Naast het maken van mijn website werd er redelijk veel huiswerk meegegeven. Hier
 
 **Screenshot(s):**
 
-![homepage img](./images/markdown1.PNG?raw=true)
-![homepage img](./images/markdown2.PNG?raw=true)
-![homepage img](./images/markdown3.PNG?raw=true)
-![homepage img](./images/markdown4.PNG?raw=true)
+![voortgang homepage img](./images/markdown1.PNG?raw=true)
+![voortgang homepage img](./images/markdown2.PNG?raw=true)
+![voortgang homepage img](./images/markdown3.PNG?raw=true)
+![voortgang homepage img](./images/markdown4.PNG?raw=true)
 
 Ik heb de homepage inmiddels helemaal af. Hierboven zijn een paar screenshots te zien van mijn website, nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken focussen op het maken van het details scherm. Als er dan nog tijd is ga ik beginnen met responsive webdesign. 
 
