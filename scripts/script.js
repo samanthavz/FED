@@ -212,13 +212,13 @@ klikgebied1.addEventListener("click", function() {
     // ! betekent omgekeerde van wat het was
     check = !check;
     if (check) {
-        imgperson1.src = "./images/team1b.PNG";
-        plusknop1.src = "./images/min.PNG"
+        imgperson1.src = "./images/Team1b.PNG";
+        plusknop1.src = "./images/min.png"
         hiddenp1.style.visibility = "visible"
 
     } else {
-        imgperson1.src = "./images/team1a.PNG";
-        plusknop1.src = "./images/plus.PNG"
+        imgperson1.src = "./images/Team1a.PNG";
+        plusknop1.src = "./images/plus.png"
         hiddenp1.style.visibility = "hidden"
     }
 })
@@ -235,13 +235,13 @@ klikgebied2.addEventListener("click", function() {
     // ! betekent omgekeerde van wat het was
     check1 = !check1;
     if (check1) {
-        imgperson2.src = "./images/team2b.PNG";
-        plusknop2.src = "./images/min.PNG"
+        imgperson2.src = "./images/Team2b.PNG";
+        plusknop2.src = "./images/min.png"
         hiddenp2.style.visibility = "visible"
 
     } else {
-        imgperson2.src = "./images/team2a.PNG";
-        plusknop2.src = "./images/plus.PNG"
+        imgperson2.src = "./images/Team2a.PNG";
+        plusknop2.src = "./images/plus.png"
         hiddenp2.style.visibility = "hidden"
     }
 })
@@ -257,13 +257,13 @@ klikgebied3.addEventListener("click", function() {
     // ! betekent omgekeerde van wat het was
     check2 = !check2;
     if (check2) {
-        imgperson3.src = "./images/team3b.PNG";
-        plusknop3.src = "./images/min.PNG"
+        imgperson3.src = "./images/Team3b.PNG";
+        plusknop3.src = "./images/min.png"
         hiddenp3.style.visibility = "visible"
 
     } else {
-        imgperson3.src = "./images/team3a.PNG";
-        plusknop3.src = "./images/plus.PNG"
+        imgperson3.src = "./images/Team3a.PNG";
+        plusknop3.src = "./images/plus.png"
         hiddenp3.style.visibility = "hidden"
     }
 })
