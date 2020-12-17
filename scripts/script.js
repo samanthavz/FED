@@ -30,7 +30,7 @@ var pathname = window.location.pathname;
 // ---------------------------------------
 // ---------------------------------------
 
-if (pathname.includes("index.html") || pathname === '/') {
+if (pathname.includes("index.html")) {
 
 window.onscroll = function () {
     console.log(window.scrollY); // Value of scroll Y in px

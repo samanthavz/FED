@@ -53,7 +53,9 @@ Ik heb opnieuw met mijn groepje een agenda opgesteld voor een feedbackgesprek. I
 
 ### Verslag van meeting
 
-To be continued...??!?1!?1!>>!!>?1
+Het probleem van het js inladen is opgelost. Ik kon de link van github pages aanpassen, wat ik nog niet wist. Nu heb ik er index.html achter gezet waardoor me code voor index.html wel ingeladen wordt. Op de vraag 'hoe kan je slomer scrollen?' kreeg ik als antwoord een website toegestuurd. Deze optie had ik al bekeken en had me niet geholpen met het scrollen. Vervolgens kreeg ik als optie om het gewoon achterwege te laten, omdat het een complex probleem was. Verder werkte het scrollen wel op mac, maar niet op mijn pc. De student assistent gaf mij als optie op via media queries de scrollbar weg te halen op telefoon en te houden op desktop. Het is misschien lelijk, maar anders zou je er veel js op moeten toepassen.
+
+Ik kan deze week in ieder geval verder werken. Ik ga eerst me website laten werken op ipad size en vervolgens op desktop size.
 
 ___
 ___
