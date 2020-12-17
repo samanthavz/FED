@@ -1,10 +1,6 @@
 # Procesverslag
 **Auteur:** Samantha van Zandwijk
 
-## opmerkingen
-
-Wanneer je de link net laadt is de pathname zonder index.html, dit zorgt ervoor dat de code niet gelijk werkt door een if statement die de url checkt. Als je op het logo van sennep klikt werkt het wel.
-
 ## Bronnenlijst
 1. [sennep.com](https://www.sennep.com/)
 2. -bron 2-
