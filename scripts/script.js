@@ -148,10 +148,10 @@ window.onresize = function () {
 // ---------------------
 //move image when scroll
 // ---------------------
-
+console.log(window.innerWidth < 700);
 var rotate = document.querySelectorAll('section > div');
 // deze functie start alleen op index.html
-if (pathname.includes("index.html") || pathname === '/') {
+if (pathname.includes("index.html") && window.innerWidth < 540) {
 
     window.addEventListener("scroll", function () {
         if (window.scrollY > 300) {

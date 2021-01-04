@@ -526,12 +526,70 @@ footer a {
 /* media queries */
 /*---------------*/
 
-/* tablet */
-@media only screen and (min-width: 500px) and (max-width: 1100px) {
+/* tablet big*/
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
   header button img {
     width: 6vw;
   }
+
+  .first-section h1 {
+    font-size: 4em;
+  }
+
+  .section {
+    flex-direction: column;
+    padding-left: 10vw;
+  }
+
+  .section1img {
+    width: 70vw!important;
+    padding-top: 9em;
+    padding-left: 14vw;
+  }
+
+  .section1 img {
+    width: 50vw!important;
+    padding-left: 5vw;
+  }
+
+  footer img {
+    height: 90vh;
+  }
 }
+
+/* tablet small */
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  header button img {
+    width: 6vw;
+  }
+
+  .first-section h1 {
+    font-size: 3em;
+  }
+
+  .section1img {
+    width: 70vw!important;
+    padding-top: 4em;
+    padding-left: 10vw;
+  }
+
+  .section1 img {
+    width: 50vw!important;
+    padding-left: 0;
+  }
+
+  footer img {
+    height: 80vh;
+  }
+}
+
+/* tablet very big*/
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+  
+}
+
+
 
 /* desktop scherm */
 @media only screen and (min-width: 1100px) {
@@ -555,5 +613,6 @@ footer a {
   .aboutmain section {
     padding: 28vh 20vw;
   }
+
 }
 
