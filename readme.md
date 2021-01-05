@@ -20,11 +20,11 @@ Eindelijk is mijn website af! Ik heb er niet veel aan gewerkt in de vakantie, du
 De website werkt op telefoon, tablet en desktop. Daarnaast zijn er een paar kleine animaties op de telefoon sizes. Als ik deze opdracht opnieuw zou doen zou ik de volgende dingen veranderen:
 
 - minder classes gebruiken.
-- var vervangen door let en const.
-- minder media queries gebruiken/overzichterlijker maken.
+- sommige var vervangen door let en const.
 - minder javascript gebruiken of versimpelen.
 - image sizes kleiner maken.
 - efficienter ccs schrijven.
+- achtergrondkleur veranderen bij element ipv scrollheight
 
 Het betekent niet dat ik deze dingen niet heb gedaan, het zijn meer punten waarvan ik achteraf dacht dat het nog wel beter kon. Ook punten zoals image sizes heb ik simpelweg niet gedaan door tijdstekort. Mijn javascript kan zeker efficienter en simpeler geschreven worden, maar ik heb daar nog niet veel ervaring in dus ik ben blij met wat ik heb gemaakt.
 
@@ -41,7 +41,7 @@ Dit is de eerste website die ik heb gemaakt met veel javascript en "volledig" re
 
 ### Stand van zaken
 
-Hieronder zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt van [van sennep.com](https://www.sennep.com/). Het lijkt niet veel, maar ik ben hier erg lang bezig mee geweest. Ik wilde de js code in één functie zetten, maar na veel zoeken en rondvragen is het me nog niet gelukt. Ik heb er voor gekozen om dit achterwege te laten, omdat het niet mijn prioriteit is op dit moment. Waar ik me vooral mee bezig wil houden is responsive websdesign. De website is nu helemaal af en werkt op verschillende mobile sizes. In de vakantie ga ik alles responsive maken en wat extra animaties toevoegen.
+Hieronder zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt [van sennep.com](https://www.sennep.com/). Het lijkt niet veel, maar ik ben hier erg lang bezig mee geweest. Ik wilde de js code in één functie zetten, maar na veel zoeken en rondvragen is het me nog niet gelukt. Ik heb er voor gekozen om dit achterwege te laten, omdat het niet mijn prioriteit is op dit moment. Waar ik me vooral mee bezig wil houden is responsive websdesign. De website is nu helemaal af en werkt op verschillende mobile sizes. In de vakantie ga ik alles responsive maken en wat extra animaties toevoegen.
 
 Ook heb ik sinds het vorige gesprek mijn toegankelijkheid gechecked en wat dingen aangepast zoals beschreven bij 'toegankelijkheid check (week 6)'. Verder heb ik wat extra comments toegevoegd en mijn code wat netter gemaakt. Daarnaast zaten er nog een paar foutjes in de website die ik heb opgelost. 
 
@@ -84,7 +84,7 @@ Deze week ben ik gaan kijken naar de toegankelijkheid (accessibility) van me web
 - Sommige images mogen een specifiekere naam krijgen. 
 
 Verder heb ik (nog?) geen form op mijn website, dus dat heb ik niet kunnen checken. Zodra ik nieuwe html toevoeg, check ik mijn website met de screenreader opnieuw. 
-Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken. Ook heb ik een [filmpje](https://www.youtube.com/watch?v=3f31oufqFSM&feature=youtu.be) bekeken met handige informatie. Dingen zoals contrast horen echt bij het design van de website, wat uit mijn handig ligt. Ondanks dat is het contrast op de website goed; lichte tekst en illustraties op donkere achtergronden en donkere tekst en illustraties op lichtere achtergronden. Ik heb dit ook nagechecked via de inspect tool van chrome en het contract was goedgekeurd.
+Het checken van je accessibility via een screenreader is een erg handige tip die ik mee heb gekregen van dit vak. Ik heb dit namelijk niet eerder gedaan en het is belangrijk dat iedereen jouw website kan bereiken. Ook heb ik een [filmpje](https://www.youtube.com/watch?v=3f31oufqFSM&feature=youtu.be) bekeken met handige informatie. Dingen zoals contrast horen echt bij het design van de website, wat uit mijn handen ligt. Ondanks dat is het contrast op de website goed; lichte tekst en illustraties op donkere achtergronden en donkere tekst en illustraties op lichtere achtergronden. Ik heb dit ook nagechecked via de inspect tool van chrome en het contract was goedgekeurd.
 
 Ik let er ook op dat ik d.m.v. media queries de tekst goed scale op verschillende schermgroottes, zodat alles goed leesbaar blijft.
 ___
@@ -103,7 +103,7 @@ Ik heb nu bijna alles af, op een slider na. De volgende weken ga ik mij richten 
 ![voortgang about img](./images/markdown6.PNG?raw=true)
 ![voortgang about img](./images/markdown7.PNG?raw=true)
 
-Hierboven zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken mijn design helemaal responsive maken.
+Hierboven zijn een paar screenshots van mijn voortgang sinds vorige week te zien. De website is nagemaakt [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken mijn design helemaal responsive maken.
 
 ___
 ___
@@ -146,7 +146,7 @@ Naast het maken van mijn website werd er redelijk veel huiswerk meegegeven. Hier
 ![voortgang homepage img](./images/markdown3.PNG?raw=true)
 ![voortgang homepage img](./images/markdown4.PNG?raw=true)
 
-Ik heb de homepage inmiddels helemaal af. Hierboven zijn een paar screenshots te zien van mijn website, nagemaakt van [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken focussen op het maken van het details scherm. Als er dan nog tijd is ga ik beginnen met responsive webdesign. 
+Ik heb de homepage inmiddels helemaal af. Hierboven zijn een paar screenshots te zien van mijn website, nagemaakt [van sennep.com](https://www.sennep.com/). De rest van de website is herhalend, dus ik heb niet alles hier in gezet. Het is nog niet responsive, op de landingspage na. Ik ga de aankomende weken focussen op het maken van het details scherm. Als er dan nog tijd is ga ik beginnen met responsive webdesign. 
 
 ___
 ___
