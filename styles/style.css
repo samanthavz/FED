@@ -628,6 +628,34 @@ footer a {
   footer a {
     font-size: 1.5em;
   }
+
+  .aboutmain h2 {
+    font-size: 4em;
+  }
+
+  .aboutsection div {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  .aboutsection div h3 {
+    font-size: 2.7em;
+  }
+
+  .aboutsection div p {
+    font-size: 1.7em;
+  }
+
+  .aboutsection div a {
+    font-size: 1.3em;
+  }
+
+  .aboutfinger {
+    height: 75vh;
+  }
+  .aboutpartner h2 {
+    font-size: 2.8em!important;
+  }
 }
 
 
@@ -705,6 +733,37 @@ footer a {
     height: 110vh;
     right: 35.5vw;
   }
+
+  .aboutsection{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aboutsection div {
+    max-width: 40em;
+  }
+  .aboutsection img {
+    height: 20em;
+    width: 20em;
+  }
+
+  .videosection video {
+    width: 50vw;
+  }
+
+  .partner h2 {
+    max-width: 70em!important;
+    padding: 6em 0 1em 0;
+    font-size: 1.8em!important;
+  }
+
+  .aboutpartner div {
+    padding: 0;
+  }
+
+  .aboutbody footer img {
+    height: 90vh;
+  }
 }
 
 /* macbook scherm */
@@ -780,6 +839,60 @@ footer a {
 
   footer a {
     font-size: 1.5em;
+  }
+
+  footer img {
+    height: 90vh;
+  }
+  .aboutmain p {
+    font-size: 1.8em;
+  }
+  .aboutsection div p {
+    font-size: 1.8em;
+  }
+
+  .aboutsection div h3 {
+    font-size: 3em;
+  }
+
+  .aboutsection div a {
+    font-size: 1.5em;
+  }
+
+  .aboutsection img {
+    width: 55em;
+    height: 50em;
+    padding: 0 2em;
+  }
+
+  .aboutsection div {
+    padding: 0 2em;
+    min-width: 40em;
+  }
+  .aboutfinger {
+    height: 80vh!important;
+  }
+
+  .partner h2 {
+    max-width: 70em!important;
+    padding: 6em 0 1em 0;
+    font-size: 3em!important;
+  }
+
+  .aboutpartner div {
+    padding: 0;
+  }
+
+  .slider div p {
+    font-size: 1.5em;
+  }
+
+  .slider div h3 {
+    font-size: 2.3em;
+  }
+
+  .slider div {
+    min-width: 30em;
   }
 }
 

@@ -54,11 +54,11 @@ window.onscroll = function () {
 
    
     //bottom finger ani
-    if ((window.scrollY > 6529 && screen.height < 580) || (window.scrollY > 7180 && screen.height < 710)) {
+    if ((window.scrollY > 6529 && screen.height < 580) || (window.scrollY > 7180 && screen.height < 710) || (window.scrollY > 7784 && window.innerHeight < 850 && window.innerHeight > 710) || (window.scrollY > 6375 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 7595 && window.innerHeight < 1100 && window.innerHeight > 830) || (window.scrollY > 10606 && window.innerHeight < 1400) || (window.scrollY > 10094 && window.innerHeight < 2700)) {
         a = 0;
         ffinger.style.bottom = "-30vh";
     }
-    if ((window.scrollY < 6629 && screen.height < 580) || (window.scrollY < 7177 && screen.height < 710)) {
+    if ((window.scrollY < 6629 && screen.height < 580) || (window.scrollY < 7177 && screen.height < 710) || (window.scrollY < 7700 && window.innerHeight < 850 && window.innerHeight > 710) || (window.scrollY < 6395 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY < 7625 && window.innerHeight < 1100 && window.innerHeight > 830) || (window.scrollY < 10666 && window.innerHeight < 1400) || (window.scrollY < 10194 && window.innerHeight < 2700)) {
         ffinger.style.bottom = "-60vh";
     }
     //top finger ani
@@ -98,10 +98,10 @@ if (pathname.includes("about.html")) {
         if (window.scrollY > 0) {
             a = 0;
         }
-        if (window.scrollY > 3200) {
+        if ((window.scrollY > 3200 && window.innerHeight < 850) || (window.scrollY > 4300 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 3998 && window.innerHeight < 1100) || (window.scrollY > 5900 && window.innerHeight < 1400 && window.innerHeight > 1100) || (window.scrollY > 6200 && window.innerHeight < 2700)) {
             a = 4;
         }
-        if (window.scrollY > 4999) {
+        if ((window.scrollY > 4999 && window.innerHeight < 850) || (window.scrollY > 7100 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 7000 && window.innerHeight < 1100) || (window.scrollY > 10500 && window.innerHeight < 1400 && window.innerHeight > 1100) || (window.scrollY > 10900 && window.innerHeight < 2700)) {
             a = 0;
         }
         //bottom finger ani

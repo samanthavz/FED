@@ -3,8 +3,9 @@
 
 ## Bronnenlijst
 1. [sennep.com](https://www.sennep.com/)
-2. -bron 2-
-3. -...-
+2. [scrollen](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
+3. [backgroundcolor](https://stackoverflow.com/questions/52637835/dynamically-change-background-color-on-scroll)
+4. [scrollen](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 
@@ -14,7 +15,8 @@
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![voortgang img](./images/markdown10.PNG?raw=true)
+![voortgang img](./images/markdown11.PNG?raw=true)
 
 
 
@@ -76,7 +78,7 @@ ___
 
 ### Stand van zaken
 
-Ik heb nu bijna alles af, op een slider na. De volgende weken ga ik mij richting op het responsive maken van mijn website. Dit ga ik doen aan de hand van extra javascript en media queries. Ook zijn er wat dingen die ik nog moet aanpassen in javascript. Ik wil onder andere wat extra comments toevoegen en de code beter organiseren. Daarnaast kan ik nog wat aandacht besteden aan wat kleine details, zoals de afbeeldingen die niet de gewenste resolutie hebben. Er zijn nog enkele aanpassingen nodig. Deze aanpassingen zijn niet per direct nodig, maar zijn meer een optie voor finetuning. 
+Ik heb nu bijna alles af, op een slider na. De volgende weken ga ik mij richten op het responsive maken van mijn website. Dit ga ik doen aan de hand van extra javascript en media queries. Ook zijn er wat dingen die ik nog moet aanpassen in javascript. Ik wil onder andere wat extra comments toevoegen en de code beter organiseren. Daarnaast kan ik nog wat aandacht besteden aan wat kleine details, zoals de afbeeldingen die niet de gewenste resolutie hebben. Er zijn nog enkele aanpassingen nodig. Deze aanpassingen zijn niet per direct nodig, maar zijn meer een optie voor finetuning. 
 
 **Screenshot(s):**
 
