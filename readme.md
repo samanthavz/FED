@@ -6,12 +6,29 @@
 2. [scrollen](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
 3. [backgroundcolor](https://stackoverflow.com/questions/52637835/dynamically-change-background-color-on-scroll)
 4. [scrollen](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+5. [height/width](https://www.w3schools.com/jsref/obj_window.asp)
+6. [onload](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event)
+7. [pathnamecheck](https://stackoverflow.com/questions/34649131/javascript-how-to-check-if-url-contains-a-word/34649157)
+8. [rotate](http://thenewcode.com/279/Rotate-Elements-on-Scroll-with-JavaScript)
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Eindelijk is mijn website af! Ik heb er niet veel aan gewerkt in de vakantie, dus heb een eindsprint gemaakt in de laatste 3 dagen. Ik was al goed op weg voor de vakantie, maar de website was nog helemaal niet responsive. Uiteindelijk heb ik niet alles kunnen doen zoals ik gewild had, mede door drukte van de andere vakken. Over het algemeen ben ik erg blij met mijn website. Hij werkt momenteel het beste op een iphone 6/7/8. Ik heb niet alle browsers kunnen checken, maar zover ik weet werkt de website op google chrome en firefox.
+
+De website werkt op telefoon, tablet en desktop. Daarnaast zijn er een paar kleine animaties op de telefoon sizes. Als ik deze opdracht opnieuw zou doen zou ik de volgende dingen veranderen:
+
+- minder classes gebruiken.
+- var vervangen door let en const.
+- minder media queries gebruiken/overzichterlijker maken.
+- minder javascript gebruiken of versimpelen.
+- image sizes kleiner maken.
+- efficienter ccs schrijven.
+
+Het betekent niet dat ik deze dingen niet heb gedaan, het zijn meer punten waarvan ik achteraf dacht dat het nog wel beter kon. Ook punten zoals image sizes heb ik simpelweg niet gedaan door tijdstekort. Mijn javascript kan zeker efficienter en simpeler geschreven worden, maar ik heb daar nog niet veel ervaring in dus ik ben blij met wat ik heb gemaakt.
+
+Dit is de eerste website die ik heb gemaakt met veel javascript en "volledig" responsive, dus het is iets waar ik op terug kan kijken met een goed gevoel. Het is zeker geen replica van de originele website, maar ik vind dat mijn website er wel dicht bij komt. Voor mij is deze opdracht geslaagd!
 
 **Screenshot(s):**
 
