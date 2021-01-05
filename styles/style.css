@@ -586,7 +586,48 @@ footer a {
 /* tablet very big*/
 
 @media only screen and (min-width: 1000px) and (max-width: 1100px) {
-  
+  p {
+    font-size: 1.7em;
+  }
+
+  .section h2 {
+    font-size: 3.5em!important;
+  }
+
+  .section a {
+    font-size: 1.8em;
+  }
+
+  .section5 {
+    min-height: 170vh;
+  }
+  .section5 article {
+    min-width: 25em!important;
+  }
+
+  .section5 article h2 {
+    font-size: 2em;
+  }
+
+  .blacklink {
+    font-size: 1.3em;
+  }
+  .section5 img:nth-of-type(1) {
+    min-height: 352px;
+  }
+
+  .partner h2 {
+    font-size: 3em;
+    padding: 3em 1em 0 1em;
+  }
+
+  footer h2 {
+    font-size: 4em;
+  }
+
+  footer a {
+    font-size: 1.5em;
+  }
 }
 
 
@@ -614,5 +655,131 @@ footer a {
     padding: 28vh 20vw;
   }
 
+  .finger {
+    width: 20em;
+  }
+
+  .section1img {
+    width: 18vw!important;
+    margin-left: 5em;
+  }
+
+  .sec2img img {
+    width: 30vw!important;
+    margin-left: 0;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section div {
+    max-width: 40em;
+    padding: 0 3em;
+  }
+
+  .textdiv {
+    margin: -4em;
+  }
+
+  .section div h2 {
+    font-size: 4.7em;
+    letter-spacing: 0.03em;
+  }
+
+  .partner h2 {
+    font-size: 3em;
+    padding: 4em 20vw 0 20vw;
+  }
+
+  .partner div {
+    padding: 2em 17vw;
+  }
+
+  .partner img {
+    max-width: 14em;
+  }
+
+  footer img {
+    height: 110vh;
+    right: 35.5vw;
+  }
+}
+
+/* macbook scherm */
+@media only screen and (min-width: 2400px) and (max-width: 2800px) {
+  .first-section h1 {
+    font-size: 7em;
+  }
+
+  .section div h2 {
+    font-size: 6em;
+    letter-spacing: 0.03em;
+  }
+
+  .section {
+    max-height: 100vh;
+  }
+  .section div p {
+    font-size: 2em;
+    letter-spacing: 0.03em;
+  }
+
+  .section div a {
+    font-size: 1.8em;
+    letter-spacing: 0.03em;
+  }
+
+  .section div {
+    max-width: 60em;
+  }
+
+  .section5 {
+    min-height: 130vh;
+    flex-wrap: wrap;
+    padding: 0 10vw 10em 10vw;
+  }
+  .section5 article {
+    min-width: 52em!important;
+    min-height: 100em!important;
+    padding: 2em 4em
+  }
+
+  .section5 article h2 {
+    font-size: 2.8em;
+  }
+
+  .section5 article p {
+    font-size: 2em;
+  }
+
+  .blacklink {
+    font-size: 1.4em;
+  }
+  .section5 img:nth-of-type(1) {
+    min-height: 352px;
+  }
+
+  .partner h2 {
+    font-size: 3.3em;
+    padding: 4em 23vw 0 23vw;
+  }
+
+  .partner div {
+    padding: 2em 17vw;
+  }
+
+  .partner img {
+    max-width: 18em;
+  }
+
+  footer h2 {
+    font-size: 5.5em;
+  }
+
+  footer a {
+    font-size: 1.5em;
+  }
 }
 

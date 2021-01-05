@@ -39,24 +39,26 @@ window.onscroll = function () {
     if (window.scrollY > 0) {
         a = 0;
     }
-    if (window.scrollY > 200) {
+    if ((window.scrollY > 200 && window.innerHeight < 710) || (window.scrollY > 500 && window.innerHeight < 850) || (window.scrollY > 500 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 800 && window.innerHeight < 1100) || (window.scrollY > 900 && window.innerHeight < 1400) || (window.scrollY > 700 && window.innerHeight < 2700)) {
         a = 1;
     }
-    if (window.scrollY > 1200) {
+    if ((window.scrollY > 1200 && window.innerHeight < 710) || (window.scrollY > 1600 && window.innerHeight < 850) || (window.scrollY > 1700 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 2100 && window.innerHeight < 1100) || (window.scrollY > 3000 && window.innerHeight < 1400) || (window.scrollY > 2200 && window.innerHeight < 2700)){
         a = 2;
     }
-    if (window.scrollY > 2100) {
+    if ((window.scrollY > 2100 && window.innerHeight < 710) || (window.scrollY > 2600 && window.innerHeight < 850) || (window.scrollY > 3000 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 3500 && window.innerHeight < 1100) || (window.scrollY > 4600 && window.innerHeight < 1400) || (window.scrollY > 3800 && window.innerHeight < 2700)) {
         a = 3;
     }
-    if (window.scrollY > 2750) {
+    if ((window.scrollY > 2750 && window.innerHeight < 710) || (window.scrollY > 3200 && window.innerHeight < 732) || (window.scrollY > 3750 && window.innerHeight < 850) || (window.scrollY > 4200 && window.innerHeight < 1300 && window.innerWidth > 1300) || (window.scrollY > 4499 && window.innerHeight < 1100) || (window.scrollY > 6000 && window.innerHeight < 1400) || (window.scrollY > 5500 && window.innerHeight < 2700)){
         a = 4;
     }
+
+   
     //bottom finger ani
-    if ((window.scrollY > 6529 && screen.height < 580) || window.scrollY > 7180) {
+    if ((window.scrollY > 6529 && screen.height < 580) || (window.scrollY > 7180 && screen.height < 710)) {
         a = 0;
         ffinger.style.bottom = "-30vh";
     }
-    if ((window.scrollY < 6629 && screen.height < 580) || window.scrollY < 7177) {
+    if ((window.scrollY < 6629 && screen.height < 580) || (window.scrollY < 7177 && screen.height < 710)) {
         ffinger.style.bottom = "-60vh";
     }
     //top finger ani
@@ -66,7 +68,12 @@ window.onscroll = function () {
         finger.style.transform = "rotate(0deg)";
         finger.style.transition = "0.4";
     }
-    if (window.scrollY < 100) {
+    if (window.scrollY < 100 && window.innerWidth > 1200) {
+        finger.style.top = "30vh";
+        finger.style.right = "-10vw";
+        finger.style.transform = "rotate(-40deg)";
+    }
+    if (window.scrollY < 100 && window.innerWidth < 1200) {
         finger.style.top = "38vh";
         finger.style.right = "-25vw";
         finger.style.transform = "rotate(-30deg)";
@@ -110,8 +117,13 @@ if (pathname.includes("about.html")) {
             finger.style.right = "-20vw";
             finger.style.transform = "rotate(0deg)";
             finger.style.transition = "0.4";
+        } 
+        if (window.scrollY < 100 && window.innerHeight > 900) {
+            finger.style.top = "30vh";
+            finger.style.right = "-10vw";
+            finger.style.transform = "rotate(-40deg)";
         }
-        if (window.scrollY < 100) {
+        if (window.scrollY < 100 && window.innerHeight < 900) {
             finger.style.top = "38vh";
             finger.style.right = "-25vw";
             finger.style.transform = "rotate(-30deg)";
@@ -127,10 +139,18 @@ if (pathname.includes("about.html")) {
 // more finger ani
 // ---------------
 
-window.onload = function () {
-    finger.style.top = "38vh";
-    finger.style.right = "-25vw";
-    finger.style.transform = "rotate(-30deg)";
+if (window.innerWidth > 1100) {
+    window.onload = function () {
+        finger.style.top = "30vh";
+        finger.style.right = "-10vw";
+        finger.style.transform = "rotate(-40deg)";
+    }
+} else {
+    window.onload = function () {
+        finger.style.top = "38vh";
+        finger.style.right = "-25vw";
+        finger.style.transform = "rotate(-30deg)";
+    }
 };
 
 // ---------------------------
