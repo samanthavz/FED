@@ -382,15 +382,15 @@ body nav div p:first-of-type {
 
 /*partner stukje van about */
 
-.partnerh2 {
-  font-size: 1.5em!important;
+.aboutpartner h2 {
+  font-size: 1.5em;
 }
 
 /* meet our team section */
 
-.team {
+.aboutbody main section:nth-of-type(8) {
   height: 90vh; 
-  padding: 0 0 0 7vw!important;
+  padding: 0 0 0 7vw;
 }
 
 .team h2 {
@@ -542,13 +542,16 @@ footer a {
   }
 
   .section1img {
-    width: 70vw!important;
     padding-top: 9em;
     padding-left: 14vw;
   }
 
+  .imagediv img {
+    width: 70vw;
+  }
+
   .section1 img {
-    width: 50vw!important;
+    width: 50vw;
     padding-left: 5vw;
   }
 
@@ -568,13 +571,16 @@ footer a {
   }
 
   .section1img {
-    width: 70vw!important;
     padding-top: 4em;
     padding-left: 10vw;
   }
 
+  .imagediv img {
+    width: 70vw;
+  }
+
   .section1 img {
-    width: 50vw!important;
+    width: 50vw;
     padding-left: 0;
   }
 
@@ -591,7 +597,7 @@ footer a {
   }
 
   .section h2 {
-    font-size: 3.5em!important;
+    font-size: 3.5em;
   }
 
   .section a {
@@ -602,7 +608,7 @@ footer a {
     min-height: 170vh;
   }
   .section5 article {
-    min-width: 25em!important;
+    min-width: 25em;
   }
 
   .section5 article h2 {
@@ -654,7 +660,7 @@ footer a {
     height: 75vh;
   }
   .aboutpartner h2 {
-    font-size: 2.8em!important;
+    font-size: 2.8em;
   }
 }
 
@@ -673,13 +679,17 @@ footer a {
     line-height: 1.15;
   }
 
-  .aboutmain section h2 {
-    font-size: 5rem;
-    max-width: 34vw;
+  .aboutmain h2 {
     line-height: 1.15;
+    font-size: 5em;
+    max-width: 40vw;
   }
 
   .aboutmain section {
+    padding: 28vh 20vw;
+  }
+
+  .partner {
     padding: 28vh 20vw;
   }
 
@@ -687,13 +697,13 @@ footer a {
     width: 20em;
   }
 
-  .section1img {
-    width: 18vw!important;
+  .imagediv img {
+    width: 18vw;
     margin-left: 5em;
   }
 
   .sec2img img {
-    width: 30vw!important;
+    width: 30vw;
     margin-left: 0;
   }
 
@@ -717,12 +727,13 @@ footer a {
   }
 
   .partner h2 {
-    font-size: 3em;
-    padding: 4em 20vw 0 20vw;
+    max-width: 70em;
+    padding: 6em 0 1em 0;
+    font-size: 1.8em;
   }
 
   .partner div {
-    padding: 2em 17vw;
+    padding: 2em 0;
   }
 
   .partner img {
@@ -751,12 +762,6 @@ footer a {
     width: 50vw;
   }
 
-  .partner h2 {
-    max-width: 70em!important;
-    padding: 6em 0 1em 0;
-    font-size: 1.8em!important;
-  }
-
   .aboutpartner div {
     padding: 0;
   }
@@ -768,6 +773,19 @@ footer a {
 
 /* macbook scherm */
 @media only screen and (min-width: 2400px) and (max-width: 2800px) {
+
+  body nav a {
+    font-size: 5em;
+  }
+
+  .aboutmain h2 {
+    font-size: 6em;
+  }
+
+  body nav p {
+    font-size: 2em;
+  }
+
   .first-section h1 {
     font-size: 7em;
   }
@@ -800,8 +818,8 @@ footer a {
     padding: 0 10vw 10em 10vw;
   }
   .section5 article {
-    min-width: 52em!important;
-    min-height: 100em!important;
+    min-width: 52em;
+    min-height: 100em;
     padding: 2em 4em
   }
 
@@ -818,11 +836,6 @@ footer a {
   }
   .section5 img:nth-of-type(1) {
     min-height: 352px;
-  }
-
-  .partner h2 {
-    font-size: 3.3em;
-    padding: 4em 23vw 0 23vw;
   }
 
   .partner div {
@@ -844,9 +857,12 @@ footer a {
   footer img {
     height: 90vh;
   }
+
+  
   .aboutmain p {
     font-size: 1.8em;
   }
+
   .aboutsection div p {
     font-size: 1.8em;
   }
@@ -870,13 +886,13 @@ footer a {
     min-width: 40em;
   }
   .aboutfinger {
-    height: 80vh!important;
+    height: 80vh;
   }
 
   .partner h2 {
-    max-width: 70em!important;
+    max-width: 70vw;
     padding: 6em 0 1em 0;
-    font-size: 3em!important;
+    font-size: 3em;
   }
 
   .aboutpartner div {
